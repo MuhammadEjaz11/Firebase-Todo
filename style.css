@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.main{
+    /* border: 05px solid black; */
+    width: 100%;
+    height: 100%;
+}
 .header{
     padding: 0 1em;
     display: flex;
@@ -23,4 +28,95 @@
 }
 .fa-solid{
     font-size: 2em;
+    cursor: pointer;
+}
+.fa-list{
+    font-size: 20em;
+}
+.center{
+    margin: auto;
+    /* border: 01px solid black; */
+    width: 100%;
+    height: 410px;
+    
+    text-align: center;
+    color: rgb(226, 226, 226);
+}
+.footer{
+    padding: 0 0.5em;
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(135, 187, 99);
+    width: 100%;
+}
+.asd{
+    /* border: 5px solid black; */
+    font-size: 1.5em;
+    color: black;
+}
+.footer span{
+    font-size: 0.4em;
+}
+h1{
+    cursor: pointer;
+}
+.modal-body{
+    /* border: 10px solid black; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.inp{
+    border-radius: 10px;
+    padding: 0.3em;
+    margin: 10px 0;
+}
+.check{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.signbtn{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0.5em;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    color:rgb(63, 86, 46) ;
+    transition: 0.6s;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+
+}
+.signbtn:hover{
+    background-color: rgb(215, 215, 215);
+}
+
+.tasks{
+    position: relative;
+    bottom: 350px;
+    /* border: 5px solid black; */
+    color: black;
+}
+.taskinput{
+    width: 70%;
+    padding: 0.5em;
+    border-radius: 20px;
+
+}
+.tasklist{
+    /* border: 5px solid black; */
+    margin: 10px auto;
+    width: 80%;
+    align-items: center;
+    padding: 0 1em;
+    display: flex;
+    justify-content: space-between;
 }
