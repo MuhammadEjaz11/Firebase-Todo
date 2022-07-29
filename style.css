@@ -5,7 +5,7 @@
 .main{
     /* border: 05px solid black; */
     width: 100%;
-    height: 100%;
+    height: 625px;
 }
 .header{
     padding: 0 1em;
@@ -44,7 +44,7 @@
 }
 .footer{
     padding: 0 0.5em;
-    position: relative;
+    position: fixed;
     bottom: 0px;
     display: flex;
     justify-content: space-between;
@@ -52,6 +52,8 @@
     align-items: center;
     background-color: rgb(135, 187, 99);
     width: 100%;
+    /* border: 5px solid black; */
+    
 }
 .asd{
     /* border: 5px solid black; */
